@@ -1,0 +1,345 @@
+body
+  {
+
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    margin: 0px;
+    z-index: 2;
+    font-weight: 400;
+  }
+
+h1, h2, h3, h4, h5, h6
+  {
+    font-family: 'DM Serif Display', serif;
+    font-size: 3rem;
+    font-weight: 700;
+  }
+
+  p
+    {
+      color: #8f8f8f;
+      padding: 1px;
+    }
+
+hr
+  {
+    border: solid #ACAEB1 0.5px;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    width: 180px;
+    margin-left: 0px;
+    padding-bottom: 70px;
+  }
+
+  a
+   {
+     color: black;
+   }
+
+a:hover
+{
+  color: black;
+  font-weight: bold;
+}
+
+
+
+  .container-fluid
+    {
+      padding: 7% 12%;
+    }
+
+  /* Section */
+
+  .colored-section
+    {
+      background-color: hsl(256, 26%, 20%);
+      color: #fff;
+    }
+
+  .white-section
+  {
+    background-color: #fff;
+  }
+
+  #navigator .container-fluid
+    {
+      padding: 1% 12%;
+      text-align: left;
+    }
+
+
+
+.navbar
+{
+  z-index: 1;
+}
+
+.nav-item
+  {
+    padding: 0px 15px;
+  }
+
+  .nav-link
+    {
+      font-size: 1.2rem;
+      font-weight: 300;
+    }
+
+.btn
+{
+  border-radius: 0px;
+}
+
+
+/************************ title section****************8 */
+
+#title
+  {
+    position: relative;
+  }
+
+
+
+.img-intro
+  {
+    position: absolute;
+    left: 100px;
+    top: 10px;
+    width: 450px;
+    padding-top: 30px;
+
+  }
+
+ .intro-right-desktop
+  {
+    position: absolute;
+    right: 0px;
+  }
+
+ .intro-left-desktop
+  {
+    position: absolute;
+    top: 380px;
+    left: 0px;
+  }
+
+  /* *************Features************** */
+
+  #features
+    {
+      margin-top: 180px;
+    }
+
+  .feature-title
+    {
+      font-size: 1.5rem;
+    }
+
+  .feature-box
+    {
+      padding: 5%;
+    }
+.feature-icon
+  {
+    margin-bottom: 1rem;
+    padding-bottom: 5%;
+    padding-top: 10%;
+
+  }
+
+/************ more info **************/
+
+#more-info
+  {
+    margin: 3% 15%;
+  }
+
+
+#more-info .container-fluid
+  {
+      padding: 5.5% 12%;
+  }
+
+  #more-info .btn
+    {
+      float: right;
+      margin-top: 40px;
+     }
+
+    .how-we-work-desktop
+    {
+      position: absolute;
+      right: 0px;
+    }
+
+
+
+
+
+    /* social media  */
+
+#social
+{
+  position: relative;
+}
+
+#social .container-fluid
+  {
+    padding: 15% 15%;
+  }
+
+
+
+.footer-deskto
+{
+  position: absolute;
+}
+  .social-logo
+  {
+    text-align: left;
+
+  }
+
+  .social-media
+  {
+    text-align: right;
+  }
+
+.fab
+{
+  color: #8f8f8f;
+  font-size: 2rem;
+  padding: 1%;
+
+}
+
+.fab:hover
+{
+  color: inherit;
+}
+
+.media-icon
+{
+  padding: 1%;
+
+}
+.
+
+.media-hr
+  {
+    border: solid #ACAEB1 0.5px;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    width: 1200px;
+    margin-left: 0px;
+margin-top: 10px;
+   padding-bottom: 70px;
+    position: absolute;
+
+  }
+
+
+
+  @media (max-width: 1028px)
+    {
+      body
+        {
+          text-align: center;
+        }
+      .img-intro
+        {
+          position: static;
+          width: 350px;
+
+        }
+        .navbar-nav
+        {
+          text-align: center;
+        }
+
+        .how-we-work-desktop
+        {
+          visibility: hidden;
+        }
+        .social-logo
+        {
+          text-align: inherit;
+        }
+        .social-media
+        {
+          text-align: inherit;
+          padding-bottom: 10px;
+
+        }
+        .media-hr
+        {
+          visibility: hidden;
+        }
+        .fab
+        {
+          margin-bottom: 10px;
+        }
+
+        #more-info .btn
+          {
+            float: none;
+            margin-top: 40px;
+           }
+           hr
+           {
+             align-items: center;
+           }
+
+
+    }
+
+    @media (max-width: 375px)
+      {
+        body
+          {
+            text-align: center;
+          }
+        .img-intro
+          {
+            position: static;
+            width: 250px;
+
+          }
+          .navbar-nav
+          {
+            text-align: center;
+          }
+
+          .how-we-work-desktop
+          {
+            visibility: hidden;
+          }
+          .social-logo
+          {
+            text-align: inherit;
+          }
+          .social-media
+          {
+            text-align: inherit;
+            padding-bottom: 10px;
+
+          }
+          .media-hr
+          {
+            visibility: hidden;
+          }
+          .fab
+          {
+            margin-bottom: 10px;
+          }
+
+          #more-info .btn
+            {
+              float: none;
+              margin-top: 40px;
+             }
+
+      }
